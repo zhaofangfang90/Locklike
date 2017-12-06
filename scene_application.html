@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE, chrome=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>lock like</title>
+    <link type="text/css" rel="stylesheet" href="assert/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assert/css/comm.css">
+    <link type="text/css" rel="stylesheet" href="assert/css/header.css">
+    <link type="text/css" rel="stylesheet" href="assert/css/footer.css">
+    <link type="text/css" rel="stylesheet" href="assert/css/scene_application.css">
+    <script src="assert/js/jquery-1.11.3.min.js"></script>
+    <script src="assert/js/header.js"></script>
+    <script src="assert/js/footer.js"></script>
+    <script src="assert/js/scene_applation.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!--header start-->
+        <div class="header_wrapper">
+            <div class="nav_conn">
+                <div class="header">
+                    <a class="menu-btn" id="menuBtn"></a>
+                    <a href="index.html" class="header_logo">
+                        <img src="assert/img/header/logo.png" class="header_logo_pic">
+                    </a>
+                    <a href="javascript:void(0);" class="buy_btn">购买</a>
+                    <ul class="nav_list hidden-xs">
+                        <li class="nav_item">
+                            <a href="index.html" class="nav_item_a">lock like</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="scene_application.html" class="nav_item_a nav_curr_item_a">场景应用</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="success_case.html" class="nav_item_a">成功案例</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="partner.html" class="nav_item_a">合作伙伴</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="after_service.html" class="nav_item_a">售后服务</a>
+                        </li>
+                        <li class="nav_item hidden-xs" id="aboutUs">
+                            <a href="javascript:void(0);" class="nav_item_a nav_item_about" >关于我们&nbsp;&nbsp;<span class="down_icon">&nbsp;</span></a>
+                            <ul class="about_list" style="z-index:99999;">
+                                <!--<li class="about_item close_nav_about">
+                                    <a href="javascript:void(0);" class="about_item_a">关于我们&nbsp;&nbsp;<span class="up_icon">&nbsp;</span></a>
+                                </li>-->
+                                <li class="about_item">
+                                    <a href="about_us.html" class="about_item_a">公司简介</a>
+                                </li>
+                                <li class="about_item">
+                                    <a href="news.html" class="about_item_a">新闻动态</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_item">
+                            <a href="javascript:void(0);" class="nav_item_a nav_item_app">APP下载</a>
+                            <img src="assert/img/index/app_code.png" class="app_code"/>
+                        </li>
+                        <li class="nav_item">
+                            <a href="javascript:void(0);" class="nav_item_a nav_item_buy">购买</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--<div class="header2_wrapper">
+                <div class="header2">
+                    <ul class="header2_list">
+                        <li class="header2_item">
+                            <a href="safe.html" class="header2_item_a">安全</a>
+                        </li>
+                        <li class="header2_item">
+                            <a href="intelligence.html" class="header2_item_a">智能</a>
+                        </li>
+                        <li class="header2_item">
+                            <a href="nimble.html" class="header2_item_a">便捷</a>
+                        </li>
+                        <li class="header2_item">
+                            <a href="design.html" class="header2_item_a header2_curr_item_a">设计</a>
+                        </li>
+                        <li class="header2_item">
+                            <a href="quality.html" class="header2_item_a">品质</a>
+                        </li>
+                        <li class="header2_item">
+                            <a href="javascript:void(0);" class="header2_item_a">产品</a>
+                        </li>
+                        &lt;!&ndash;<li class="header2_item hidden-lg hidden-md hidden-sm">&ndash;&gt;
+                        &lt;!&ndash;<a href="javascript:void(0);" class="header2_item_a header2_item_buy">购买</a>&ndash;&gt;
+                        &lt;!&ndash;</li>&ndash;&gt;
+                    </ul>
+                </div>
+            </div>-->
+
+            <div class=header_wrapper_mob>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_item_a">lock like</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="scene_application.html" class="nav_item_a nav_curr_item_a">场景应用</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="success_case.html" class="nav_item_a">成功案例</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="partner.html" class="nav_item_a">合作伙伴</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="after_service.html" class="nav_item_a">售后服务</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="about_us.html" class="nav_item_a">公司简介</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="news.html" class="nav_item_a">新闻动态</a>
+                    </li>
+                   <!-- <li class="nav_item">
+                        <a href="javascript:void(0);" class="nav_item_a">APP下载</a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!--header end-->
+
+        <!--banner start-->
+        <div class="banner">
+            <ul class="banner_list">
+                <li class="banner_item">
+                    <img src="assert/img/scene_application/scene_banner_pic1.jpg" class="banner_pic">
+                    <div class="banner_slogan">
+                        <div class="banner_slogan_bg"></div>
+                        <div class="banner_title">酒店</div>
+                        <div class="banner_desc">LM 智能系统、分城市分层级、海量管理</div>
+                    </div>
+                </li>
+                <li class="banner_item">
+                    <img src="assert/img/scene_application/scene_banner_pic2.jpg" class="banner_pic">
+                    <div class="banner_slogan">
+                        <div class="banner_slogan_bg"></div>
+                        <div class="banner_title">长短租</div>
+                        <div class="banner_desc">权限远程发放、无需更换锁芯、无需催租</div>
+                    </div>
+                </li>
+                <li class="banner_item">
+                    <img src="assert/img/scene_application/scene_banner_pic3_mob.jpg" class="banner_pic banner_pic1">
+                    <img src="assert/img/scene_application/scene_banner_pic3_mob.jpg" class="banner_mob_pic">
+                    <div class="banner_slogan_right">
+                        <div class="banner_slogan_right_bg"></div>
+                        <div class="banner_slogan_right_conn">
+                            <div class="banner_right_title">家庭</div>
+                            <div class="banner_right_desc">LM智能系统</div>
+                            <div class="banner_right_desc">分城市分层级</div>
+                            <div class="banner_right_desc">海量管理</div>
+                        </div>
+                    </div>
+                    <div class="banner_slogan">
+                        <div class="banner_slogan_bg"></div>
+                        <div class="banner_title">家庭</div>
+                        <div class="banner_desc">LM智能系统、分城市分层级、海量管理</div>
+                    </div>
+                   <!-- <div class="banner_slogan_right_mob">
+                        <div class="banner_slogan_bg"></div>
+                        <div class="banner_title">家庭</div>
+                        <div class="banner_desc">LM智能系统、分城市分层级、海量管理</div>
+                    </div>-->
+                </li>
+            </ul>
+            <div class="banner_all_piao">
+                <div class="banner_piao_bg"></div>
+                <div class="banner_all_piao_desc">定制化需求 · 满足不同场景运用</div>
+            </div>
+        </div>
+        <!--banner end-->
+
+        <!--intro start-->
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="intro_img_conn">
+                            <img src="assert/img/scene_application/intro_pic1.png" class="intro_pic">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="row intro_txt">
+                            <div class="col-md-3 col-xs-12">
+                                <div class="intro_title">WIFI网关</div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="intro_desc">
+                                    lock like互联网智能锁 ，可根据
+                                    不同场景需求，组合使用，自定义
+                                    设置。让入住更便捷，管理更灵活。
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <div class="intro_title intro_title1">蓝牙网关</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="intro_img_conn">
+                            <img src="assert/img/scene_application/intro_pic2.png" class="intro_pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--intro end-->
+
+        <!--map start-->
+        <div class="map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="map_title">全国速递 下单—安装全流程</div>
+                        <div class="map_desc">lock like自有客户管理跟踪系统，实现从生产、库存、安装、售后全流程管理。</div>
+                    </div>
+                    <div class="col-md-12 col-xs-12">
+                        <div class="map_conn">
+                            <img src="assert/img/scene_application/map_pic.png" class="map_pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--map end-->
+
+        <!--data start-->
+        <div class="data">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <ul class="data_list">
+                            <li class="data_item">
+                                <div class="data_left">
+                                    <img src="assert/img/scene_application/circle_icon1.png" class="data_pic">
+                                </div>
+                                <div class="data_right">
+                                    <div class="data_desc">服务人数</div>
+                                    <div class="data_title">100 W<sup>+</sup></div>
+                                </div>
+                            </li>
+                            <li class="data_item">
+                                <div class="data_left">
+                                    <img src="assert/img/scene_application/circle_icon2.png" class="data_pic">
+                                </div>
+                                <div class="data_right">
+                                    <div class="data_desc">全国安装</div>
+                                    <div class="data_title">34省市自治区</div>
+                                </div>
+                            </li>
+                            <li class="data_item">
+                                <div class="data_left">
+                                    <img src="assert/img/scene_application/circle_icon3.png" class="data_pic">
+                                </div>
+                                <div class="data_right">
+                                    <div class="data_desc">在线客服服务</div>
+                                    <div class="data_title">7*24小时</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--data end-->
+
+        <!--guarantee start-->
+        <div class="guarantee">
+           <ul class="guarantee_list">
+               <li class="guarantee_item">
+                   <img src="assert/img/scene_application/guarantee_pic1.jpg" class="guarantee_pic hidden-xs">
+                   <img src="assert/img/scene_application/guarante_mob_pic1.jpg" class="guarantee_pic hidden-sm hidden-md hidden-lg">
+                   <div class="guarantee_left_conn">
+                        <div class="guarantee_title">2年保质</div>
+                       <div class="guarantee_desc">自安装2年内</div>
+                       <div class="guarantee_desc">质量问题免费上门维修</div>
+                   </div>
+               </li>
+               <li class="guarantee_item">
+                   <img src="assert/img/scene_application/guarantee_pic2.jpg" class="guarantee_pic hidden-xs">
+                   <img src="assert/img/scene_application/guarantee_mob_pic2.jpg" class="guarantee_pic hidden-sm hidden-md hidden-lg">
+                   <div class="guarantee_right_conn">
+                       <div class="guarantee_title">7x24小时</div>
+                       <div class="guarantee_desc">全天候客服电话</div>
+                       <div class="guarantee_desc">随时为您排除问题</div>
+                   </div>
+               </li>
+           </ul>
+        </div>
+        <!--guarantee end-->
+
+        <!--footer start-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer_logo">
+                            <img src="assert/img/header/logo.png" class="footer_logo_pic">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer_nav">
+                            <div class="footer_nav_title">站点导航</div>
+                            <ul class="footer_nav_list">
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="index.html">lock like</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="after_service.html">售后服务</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a footer_nav_item_curr_a" href="scene_application.html">场景应用</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="#">品牌故事</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="success_case.html">成功案例</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="about_us.html">公司简介</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="partner.html">合作伙伴</a>
+                                </li>
+                                <li class="footer_nav_item">
+                                    <a class="footer_nav_item_a" href="news.html">新闻动态</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer_contact_conn">
+                            <div class="footer_contact_title">联系我们</div>
+                            <ul class="footer_contact_list">
+                                <li class="footer_contact_item">
+                                    <a href="javascript:void(0);" class="footer_contact_item_a">400-058-1618</a>
+                                </li>
+                                <li class="footer_contact_item">
+                                    <a href="mailto:Seadon@locklike.com" class="footer_contact_item_a">Seadon@locklike.com</a>
+                                </li>
+                                <li class="footer_contact_item">
+                                    <a href="javascript:void(0);" class="footer_contact_item_a footer_contact_item_buy">购买</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer_code">
+                            <ul class="footer_code_list">
+                                <li class="footer_code_item">
+                                    <img src="assert/img/footer/footer_weixin_code.png" class="footer_code_weixin"/>
+                                    <div class="footer_code_weixin_desc">官方微信</div>
+                                </li>
+                                <li class="footer_code_item">
+                                    <img src="assert/img/footer/footer_app_code.png" class="footer_code_app"/>
+                                    <div class="footer_code_app_desc">APP下载</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assert/img/footer/backTop.png" id="backTop_pic">
+        </div>
+        <!--footer end-->
+
+    </div>
+</body>
+</html>

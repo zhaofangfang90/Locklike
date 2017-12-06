@@ -1,0 +1,141 @@
+﻿.pic{
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: block;
+}
+#d_tab29 ul,#d_tab29 li{margin:0;padding:0;list-style:none}
+#d_tab29 img{border:0;vertical-align:top}
+
+
+
+#d_tab29{position:relative; height:auto;margin-top:-5%;}
+#d_tab29 .d_img{position:relative;margin:0 auto;width:40%;height:100%}
+#d_tab29 .d_img li{position:absolute;display:none;z-index:0}
+#d_tab29 .d_img li img{width:100%}
+#d_tab29 .d_img li a{width:100%}
+	
+ 
+#d_tab29 .d_img li.d_pos1{display:block;width:0%;left:0%;top:50px;z-index:1}
+#d_tab29 .d_img li.d_pos2{display:block;width:60%;left:-60%;top:38px;z-index:2;opacity:1;}
+#d_tab29 .d_img li.d_pos3{display:block;width:80%;left:10%;top:15px;z-index:3;opacity:1;}
+#d_tab29 .d_img li.d_pos4{display:block;width:60%;right:-40%;top:38px;z-index:2;opacity:1;}
+#d_tab29 .d_img li.d_pos5{display:block;width:0%;right:0%;top:50px;z-index:1}
+
+
+#d_tab29 .d_menu{position:absolute;bottom:0;width:100%;top:370px;text-align:center}
+#d_tab29 .d_menu li{
+    width: 20px;
+    height: 20px;
+    background: #c9caca;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    display:inline-block;
+}
+#d_tab29 .d_menu li:nth-child(1){
+    background: -webkit-linear-gradient(#d2c4b9, #b49e90); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#d2c4b9, #b49e90); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#d2c4b9, #b49e90); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#d2c4b9, #b49e90); /* 标准的语法 */
+}
+#d_tab29 .d_menu li:nth-child(2){
+    background: -webkit-linear-gradient(#fed5a7, #eeb5ac); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#fed5a7, #eeb5ac); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#fed5a7, #eeb5ac); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#fed5a7, #eeb5ac); /* 标准的语法 */
+}
+#d_tab29 .d_menu li:nth-child(3){
+    background: -webkit-linear-gradient(#292929, #030303); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#292929, #030303); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#292929, #030303); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#292929, #030303); /* 标准的语法 */
+}
+#d_tab29 .d_menu li:nth-child(4){
+    background: -webkit-linear-gradient(#585d63, #2e3235); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#585d63, #2e3235); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#585d63, #2e3235); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#585d63, #2e3235); /* 标准的语法 */
+}
+#d_tab29 .d_menu li:nth-child(5){
+    background: -webkit-linear-gradient(#bac3cc, #95a1af); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#bac3cc, #95a1af); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#bac3cc, #95a1af); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#bac3cc, #95a1af); /* 标准的语法 */
+}
+#d_tab29 .d_menu li:nth-child(6){
+    background: -webkit-linear-gradient(#e1ebf4, #fdfdfd); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#e1ebf4, #fdfdfd); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#e1ebf4, #fdfdfd); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#e1ebf4, #fdfdfd); /* 标准的语法 */
+}
+#d_tab29 .d_menu li.d_select{
+    width:22px;
+    height: 22px;
+    margin-top:2px;
+}
+
+/*#d_tab29 .d_next{position:absolute;left:50%;margin-left:475px;top:140px;z-index:10;cursor:pointer}
+#d_tab29 .d_prev{position:absolute;left:50%;margin-left:-525px;top:140px;z-index:10;cursor:pointer}*/
+#d_tab29 .d_prev{position:absolute;left:8%;top:45%;z-index:10;cursor:pointer}
+#d_tab29 .d_next{position:absolute;right:8%;top:45%;z-index:10;cursor:pointer}
+
+
+
+/*@media screen and (min-width:1px) and (max-width:320px){
+    #d_tab29 .d_img li.d_pos1{display:block;width:50%;left:0%;top:50px;z-index:1}
+    #d_tab29 .d_img li.d_pos2{display:block;width:60%;left:-40%;top:38px;z-index:2}
+    #d_tab29 .d_img li.d_pos3{display:block;width:70%;left:10%;top:27px;z-index:3}
+    #d_tab29 .d_img li.d_pos4{display:block;width:60%;right:-40%;top:38px;z-index:2}
+    #d_tab29 .d_img li.d_pos5{display:block;width:50%;right:0%;top:50px;z-index:1}
+    #d_tab29 .d_menu li{
+        margin-right:6px;
+    }
+}*/
+
+@media screen and (min-width:321px) and (max-width:360px){
+    #d_tab29{
+        position: relative;
+        margin-top:-4%;
+    }
+    #d_tab29 .d_img li.d_pos1{display:block;width:0%;left:0%;top:50px;z-index:1}
+    #d_tab29 .d_img li.d_pos2{display:block;width:60%;left:-50%;top:38px;z-index:2}
+    #d_tab29 .d_img li.d_pos3{display:block;width:80%;left:14%;top:27px;z-index:3}
+    #d_tab29 .d_img li.d_pos4{display:block;width:60%;right:-50%;top:38px;z-index:2}
+    #d_tab29 .d_img li.d_pos5{display:block;width:0%;right:0%;top:50px;z-index:1}
+    #d_tab29 .d_menu li{
+        margin-right:6px;
+    }
+}
+@media screen and (min-width:361px) and (max-width:959px){
+    #d_tab29{
+        position: relative;
+        margin-top: 5%;
+    }
+    #d_tab29 .d_img{
+        width:50%;
+        left:5.5%;
+    }
+}
+
+@media screen and (min-width:959px) and (max-width:1280px){
+    #d_tab29 .d_img li.d_pos1{display:block;width:0%;left:0%;top:50px;z-index:1}
+    #d_tab29 .d_img li.d_pos2{display:block;width:60%;left:8%;top:45px;z-index:2}
+    #d_tab29 .d_img li.d_pos3{display:block;width:70%;left:15%;top:27px;z-index:3}
+    #d_tab29 .d_img li.d_pos4{display:block;width:60%;right:8%;top:45px;z-index:2}
+    #d_tab29 .d_img li.d_pos5{display:block;width:0%;right:0%;top:50px;z-index:1}
+}
+
+
+
+@media screen and (min-width:1900px) and (max-width:1920px){
+    #d_tab29 .d_img li.d_pos1{display:block;width:0%;left:0%;top:85px;z-index:1}
+    #d_tab29 .d_img li.d_pos2{display:block;width:60%;left:6%;top:57px;z-index:2}
+    #d_tab29 .d_img li.d_pos3{display:block;width:76%;left:12%;top:20px;z-index:3}
+    #d_tab29 .d_img li.d_pos4{display:block;width:60%;right:6%;top:57px;z-index:2}
+    #d_tab29 .d_img li.d_pos5{display:block;width:0%;right:0%;top:85px;z-index:1}
+    #d_tab29 .d_menu li{
+        margin-right:10px;
+    }
+}
+

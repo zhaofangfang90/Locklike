@@ -1,0 +1,104 @@
+.parameter{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+   padding-bottom: 50px;
+}
+.parameter_conn{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top:59px;
+}
+.parameter_left{
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: block;
+    float: left;
+    padding-bottom: 30px;
+}
+.parameter_pic{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.parameter_txt{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 30px;
+}
+.parameter_mob_txt{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+.parameter_right{
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: block;
+    float: right;
+    background-color: #f7f7f7;
+    padding-bottom: 30px;
+}
+
+.parameter_conn:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+@media screen and (min-width:1px) and (max-width:959px){
+    .parameter_conn{
+        padding-top: 88px;
+    }
+    .parameter{
+        padding-bottom: 0;
+    }
+    .aaa{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .parameter_left{
+        width:100%;
+        float: none;
+       /* padding-left:10px;
+        padding-right: 10px;
+        box-sizing: border-box;*/
+    }
+    .parameter_right{
+        width:100%;
+        float: none;
+      /*  padding-left:10px;
+        padding-right: 10px;
+        box-sizing: border-box;*/
+    }
+    .parameter_txt{
+        padding-top: 0;
+        display: none;
+    }
+    .parameter_mob_txt{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1920px){
+    .parameter{
+        padding-bottom: 80px;
+    }
+    .parameter_txt{
+        padding-top: 30px;
+    }
+}
